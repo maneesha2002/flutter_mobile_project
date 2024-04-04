@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "468000265929",
+    "project_id": "lost-seeker-79f53",
+    "storage_bucket": "lost-seeker-79f53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468000265929:android:407218fe3b694eaeb49f18",
+        "android_client_info": {
+          "package_name": "com.example.flutter_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsNQB8YLqYUQT6A9Mt23_DNClctoIy72I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
