@@ -57,7 +57,7 @@ class _ProfileState extends State<Profile> {
       appBar: AppBar(
         title: const Text("My Profile"),
         centerTitle: true,
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Colors.b[800],
       ),
       body: SafeArea(
         child: Padding(
