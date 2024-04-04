@@ -121,7 +121,7 @@ class _ProfileState extends State<Profile> {
                               Text(
                                 contactNumber,
                                 style: const TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.white60,
                                     fontSize: 25.0,
                                     fontWeight: FontWeight.w600),
                               ),
