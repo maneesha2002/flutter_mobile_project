@@ -300,7 +300,7 @@ class _ProfileState extends State<Profile> {
         ),
         backgroundColor: Colors.red,
         duration: const Duration(seconds: 3),
-        showCloseIcon: false,
+        showCloseIcon: ,
       ),
     );
   }
