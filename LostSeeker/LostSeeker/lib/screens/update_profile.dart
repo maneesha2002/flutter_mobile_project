@@ -29,7 +29,7 @@ class _UpdateState extends State<Update> {
       appBar: AppBar(
         title: const Text("Update Profile"),
         centerTitle: true,
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Color.fromARGB(255, 248, 190, 66),
       ),
       body: SingleChildScrollView(
         child: Container(

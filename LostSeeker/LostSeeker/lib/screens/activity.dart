@@ -70,7 +70,7 @@ class _ActivityState extends State<Activity> {
       appBar: AppBar(
         title: const Text("My Activity"),
         centerTitle: true,
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Color.fromARGB(255, 248, 190, 66),
       ),
       body: SafeArea(
         child: Padding(
@@ -82,7 +82,7 @@ class _ActivityState extends State<Activity> {
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Color.fromARGB(255, 248, 190, 66),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Column(

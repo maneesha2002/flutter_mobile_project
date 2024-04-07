@@ -36,7 +36,7 @@ class _MessageState extends State<Message> {
       appBar: AppBar(
         title: const Text("Message"),
         centerTitle: true,
-        backgroundColor: Colors.blue[800],
+        backgroundColor: Color.fromARGB(255, 248, 190, 66),
       ),
       body: SafeArea(
         child: Padding(
@@ -69,7 +69,7 @@ class _MessageState extends State<Message> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Colors.blue[800],
+        color: Color.fromARGB(255, 248, 190, 66),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
