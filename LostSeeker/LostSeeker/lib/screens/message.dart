@@ -43,7 +43,7 @@ class _MessageState extends State<Message> {
           padding: const EdgeInsets.all(8.0),
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Color.fromARGB(255, 248, 190, 66),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Column(
