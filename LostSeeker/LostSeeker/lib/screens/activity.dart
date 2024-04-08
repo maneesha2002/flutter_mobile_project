@@ -43,7 +43,7 @@ class _ActivityState extends State<Activity> {
       SnackBar(
         content: Text(
           message,
-          style: const TextStyle(color: Colors.white, fontSize: 16.0),
+          style: const TextStyle(color: Colors.blue, fontSize: 16.0),
         ),
         backgroundColor: Colors.red,
         duration: const Duration(seconds: 3),
