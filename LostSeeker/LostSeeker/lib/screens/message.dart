@@ -140,7 +140,7 @@ class _MessageState extends State<Message> {
             ),
             Text(
               'Message: ${snap['message']}',
-              style: TextStyle(fontSize: 15.0, color: Colors.grey.shade60),
+              style: TextStyle(fontSize: 15.0, color: Colors.grey.shade600),
             ),
             Text(
               'Conatct Number: ${snap['senderContactNumber']}',
