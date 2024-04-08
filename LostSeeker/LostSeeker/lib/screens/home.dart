@@ -89,7 +89,7 @@ class _HomeState extends State<Home> {
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 248, 190, 66),
+                      color: Color.fromARGB(25, 248, 190, 66),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Column(
