@@ -184,7 +184,7 @@ class _UpdateState extends State<Update> {
       SnackBar(
         content: Text(
           message,
-          style: const TextStyle(color: Colors.white, fontSize: 16.),
+          style: const TextStyle(color: Colors.white, fontSize: 16.0),
         ),
         backgroundColor: Colors.red,
         duration: const Duration(seconds: 3),
