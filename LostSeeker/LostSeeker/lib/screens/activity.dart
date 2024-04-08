@@ -83,7 +83,7 @@ class _ActivityState extends State<Activity> {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Color.fromARGB(255, 248, 190, 66),
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(2),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
