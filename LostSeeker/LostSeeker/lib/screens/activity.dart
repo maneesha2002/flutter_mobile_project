@@ -170,7 +170,7 @@ class _ActivityState extends State<Activity> {
                   Text(
                     'Category: ${snap['category']}',
                     style:
-                        TextStyle(fontSize: 12.0, color: Colors.blue.shade600),
+                        TextStyle(fontSize: 12.0, color: Colors.grey.shade600),
                   ),
                   Text(
                     'Location: ${snap['location']}',
