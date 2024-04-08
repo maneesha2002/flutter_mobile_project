@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
                                 fontWeight: FontWeight.w600),
                           ),
                         ),
-                        const SizedBox(height: 200),
+                        const SizedBox(height: 20),
                         // Adding space between text and buttons
                         itemsList()
                       ],
