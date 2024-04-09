@@ -57,7 +57,7 @@ class _ProfileState extends State<Profile> {
       appBar: AppBar(
         title: const Text("My Profile"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 248, 190, 66),
+        backgroundColor: Color.fromARGB(255, 32, 235, 214),
       ),
       body: SafeArea(
         child: Padding(
@@ -65,7 +65,7 @@ class _ProfileState extends State<Profile> {
           child: Container(
             padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 248, 190, 66),
+              color: Color.fromARGB(255, 32, 235, 214),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Column(
@@ -228,7 +228,7 @@ class _ProfileState extends State<Profile> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Color.fromARGB(255, 248, 190, 66),
+        color: Color.fromARGB(255, 32, 235, 214),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [

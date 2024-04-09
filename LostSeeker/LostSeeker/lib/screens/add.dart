@@ -34,7 +34,7 @@ class _AddState extends State<Add> {
       appBar: AppBar(
         title: const Text("Add Item"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 248, 190, 66),
+        backgroundColor: Color.fromARGB(255, 32, 235, 214),
       ),
       body: SafeArea(
         child: Padding(
@@ -183,7 +183,7 @@ class _AddState extends State<Add> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Color.fromARGB(255, 248, 190, 66),
+        color: Color.fromARGB(255, 32, 235, 214),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [

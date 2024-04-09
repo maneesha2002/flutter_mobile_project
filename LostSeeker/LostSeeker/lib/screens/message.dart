@@ -36,14 +36,14 @@ class _MessageState extends State<Message> {
       appBar: AppBar(
         title: const Text("Message"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 248, 190, 66),
+        backgroundColor: Color.fromARGB(255, 32, 235, 214),
       ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 248, 190, 66),
+              color: Color.fromARGB(255, 32, 235, 214),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Column(
@@ -69,7 +69,7 @@ class _MessageState extends State<Message> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Color.fromARGB(255, 248, 190, 66),
+        color: Color.fromARGB(255, 32, 235, 214),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [

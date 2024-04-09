@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: const Text("Home"),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 248, 190, 66),
+        backgroundColor: Color.fromARGB(255, 32, 235, 214),
       ),
       body: SafeArea(
         child: Padding(
@@ -89,7 +89,7 @@ class _HomeState extends State<Home> {
                   padding: const EdgeInsets.symmetric(vertical: 10.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 248, 190, 66),
+                      color: Color.fromARGB(255, 32, 235, 214),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Column(
@@ -121,7 +121,7 @@ class _HomeState extends State<Home> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Color.fromARGB(255, 248, 190, 66),
+        color: Color.fromARGB(255, 32, 235, 214),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
