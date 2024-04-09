@@ -262,7 +262,7 @@ class _ActivityState extends State<Activity> {
                     itemCount: snapshot.data!.docs.length,
                     itemBuilder: ((context, index) => Container(
                           child: itemCard(snapshot.data!.docs[index].data(),
-                              snapshot.data!.docs[index].id, contex),
+                              snapshot.data!.docs[index].id, context),
                         )));
               }
             }),
