@@ -136,7 +136,7 @@ class _MessageState extends State<Message> {
             Text(
               snap['senderUsername'],
               style:
-                  const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),
+                  const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w60),
             ),
             Text(
               'Message: ${snap['message']}',
