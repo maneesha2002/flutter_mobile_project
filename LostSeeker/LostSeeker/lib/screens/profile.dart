@@ -65,7 +65,7 @@ class _ProfileState extends State<Profile> {
           child: Container(
             padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 32, 235, 214),
+              color: Color.fromARGB(255, 32, 235, 213),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Column(
